@@ -16,7 +16,7 @@ namespace Practica6
             int determiante=7;
             determiante = ((matriz[0, 0] * matriz[1, 1] * matriz[2, 2]) + (matriz[1, 0] * matriz[2, 1] * matriz[0, 2]) + (matriz[0, 1] * matriz[1, 2] * matriz[2, 0])) - ((matriz[0, 2] * matriz[1, 1] * matriz[2, 0]) + (matriz[0, 1] * matriz[1, 0] * matriz[2, 2]) + (matriz[1, 2] * matriz[2, 1] * matriz[0, 0]));
           
-            Console.WriteLine("EL determinante de la matriz es: {0}",determiante);
+            Console.WriteLine(determiante);
           
         }
     }
